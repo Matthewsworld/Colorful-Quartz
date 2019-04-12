@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "normal": { "model": "cqm:magenta_quartz_block" }
+    }
+}

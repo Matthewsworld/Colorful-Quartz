@@ -1,0 +1,52 @@
+
+//Crystals
+item.red_quartz.name=Red Nether Quartz
+item.blue_quartz.name=Blue Nether Quartz
+item.black_quartz.name=Black Nether Quartz
+item.brown_quartz.name=Brown Nether Quartz
+item.cyan_quartz.name=Cyan Nether Quartz
+item.dark_grey_quartz.name=Gray Nether Quartz
+item.green_quartz.name=Green Nether Quartz
+item.light_blue_quartz.name=Light Blue Nether Quartz
+item.light_grey_quartz.name=Light Gray Nether Quartz
+item.lime_quartz.name=Lime Nether Quartz
+item.magenta_quartz.name=Magenta Nether Quartz
+item.orange_quartz.name=Orange Nether Quartz
+item.pink_quartz.name=Pink Nether Quartz
+item.purple_quartz.name=Purple Nether Quartz
+item.yellow_quartz.name=Yellow Nether Quartz
+
+//Paints
+item.black_paint.name=Black Paint
+item.blue_paint.name=Blue Paint
+item.brown_paint.name=Brown Paint
+item.cyan_paint.name=Cyan Paint
+item.dark_grey_paint.name=Gray Paint
+item.green_paint.name=Green Paint
+item.light_blue_paint.name=Light Blue Paint
+item.light_grey_paint.name=Light Gray Paint
+item.lime_paint.name=Lime Paint
+item.magenta_paint.name=Magenta Paint
+item.orange_paint.name=Orange Paint
+item.pink_paint.name=Pink Paint
+item.purple_paint.name=Purple Paint
+item.red_paint.name=Red Paint
+item.white_paint.name=White Paint
+item.yellow_paint.name=Yellow Paint
+
+//Blocks
+tile.red_quartz_block.name=Red Block of Quartz
+tile.blue_quartz_block.name=Blue Block of Quartz
+tile.black_quartz_block.name=Black Block of Quartz
+tile.brown_quartz_block.name=Brown Block of Quartz
+tile.cyan_quartz_block.name=Cyan Block of Quartz
+tile.dark_grey_quartz_block.name=Gray Block of Quartz
+tile.green_quartz_block.name=Green Block of Quartz
+tile.light_blue_quartz_block.name=Light Blue Block of Quartz
+tile.light_grey_quartz_block.name=Light Gray Block of Quartz
+tile.lime_quartz_block.name=Lime Block of Quartz
+tile.magenta_quartz_block.name=Magenta Block of Quartz
+tile.orange_quartz_block.name=Orange Block of Quartz
+tile.pink_quartz_block.name=Pink Block of Quartz
+tile.purple_quartz_block.name=Purple Block of Quartz
+tile.yellow_quartz_block.name=Yellow Block of Quartz

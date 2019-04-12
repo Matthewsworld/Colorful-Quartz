@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "DDD",
+        "DWD",
+        "DDD"
+    ],
+    
+    "key":
+    {
+        "D":
+        {
+            "type": "forge:ore_dict",
+            "ore": "dyeGray"
+        },
+    
+            "W":
+        {
+            "item": "minecraft:water_bucket"
+        }
+    },
+    
+    "result":
+    {
+        "item": "cqm:dark_grey_paint",
+        "count": 1
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "DDD",
+        "DWD",
+        "DDD"
+    ],
+    
+    "key":
+    {
+        "D":
+        {
+            "type": "forge:ore_dict",
+            "ore": "dyeLime"
+        },
+    
+            "W":
+        {
+            "item": "minecraft:water_bucket"
+        }
+    },
+    
+    "result":
+    {
+        "item": "cqm:lime_paint",
+        "count": 1
+    }
+}

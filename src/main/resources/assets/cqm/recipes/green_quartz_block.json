@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "BB",
+        "BB"
+    ],
+    
+    "key":
+    {
+        "B":
+        {
+            "item": "cqm:green_quartz"
+        }
+    },
+    
+    "result":
+    {
+        "item": "cqm:green_quartz_block",
+        "count": 1
+    }
+}

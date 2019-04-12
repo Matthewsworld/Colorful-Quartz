@@ -17,6 +17,7 @@ public class Main {
 	@Instance
 	public static Main instance;
 	
+	//poxy proxy
 	@SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.COMMON_PROXY_CLASS)
 	public static CommonProxy proxy;
 	

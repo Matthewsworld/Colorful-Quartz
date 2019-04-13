@@ -3,6 +3,7 @@ package matthewsworld04.colorablequartz;
 import matthewsworld04.colorablequartz.proxy.CommonProxy;
 import matthewsworld04.colorablequartz.util.Reference;
 import matthewsworld04.colorablequartz.util.handlers.OreDictionaryHandler;
+import matthewsworld04.colorablequartz.util.handlers.RegistryHandler;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -22,7 +23,8 @@ public class Main {
 	public static CommonProxy proxy;
 	
 	@EventHandler
-	public static void PreInit(FMLPreInitializationEvent event)
+	public static void PreInit(FMLPreInitializationEvent event){RegistryHandler.otherRegistries();}
+	
 	{
 		
 	}

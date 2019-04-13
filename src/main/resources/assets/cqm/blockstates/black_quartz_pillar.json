@@ -1,0 +1,12 @@
+{
+    "variants": {
+        "normal": [{
+        "textures": {
+        "side": "cqm:black_pillar_side",
+        "top": "cqm:black_pillar_top",
+        "bottom": "cqm_black_pillar_top"
+        },
+        
+         "model": "cqm:black_pillar_side" }
+    }
+}]

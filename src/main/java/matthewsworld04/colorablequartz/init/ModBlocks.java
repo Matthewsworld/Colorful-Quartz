@@ -3,8 +3,8 @@ package matthewsworld04.colorablequartz.init;
 import java.util.ArrayList;
 import java.util.List;
 
+import matthewsworld04.colorablequartz.blocks.BlackOre;
 import matthewsworld04.colorablequartz.blocks.ColoredQuartzBlock;
-import matthewsworld04.colorablequartz.blocks.slab.CQMHalfSlab;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 
@@ -29,6 +29,12 @@ public class ModBlocks
 	public static final Block PURPLE_QUARTZ_BLOCK = new ColoredQuartzBlock("purple_quartz_block", Material.IRON);
 	public static final Block RED_QUARTZ_BLOCK = new ColoredQuartzBlock("red_quartz_block", Material.IRON);
 	public static final Block YELLOW_QUARTZ_BLOCK = new ColoredQuartzBlock("yellow_quartz_block", Material.IRON);
-
+	
+	//Pillars (for the future)
+	//public static final Block BLACK_QUARTZ_PILLAR = new ColoredQuartzBlock("black_quartz_pillar", Material.IRON);
+	
+	//Ores
+	public static final Block BLACK_QUARTZ_ORE = new BlackOre("black_quartz_ore", Material.ROCK);
+	
 	
 }

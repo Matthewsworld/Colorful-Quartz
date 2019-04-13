@@ -50,3 +50,6 @@ tile.orange_quartz_block.name=Orange Block of Quartz
 tile.pink_quartz_block.name=Pink Block of Quartz
 tile.purple_quartz_block.name=Purple Block of Quartz
 tile.yellow_quartz_block.name=Yellow Block of Quartz
+
+//Ores
+tile.black_quartz_ore.name=Black Nether Quartz Ore

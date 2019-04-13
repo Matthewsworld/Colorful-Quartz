@@ -1,0 +1,24 @@
+{ 
+    "type": "minecraft:crafting_shapeless",
+
+    "ingredients": 
+    [
+
+    {
+      "item": "cqm:red_paint",
+      "data": 32767
+    },
+
+    {
+      "type": "forge:ore_dict",
+      "ore": "blockQuartz"
+    }
+    
+    ],
+
+    "result": 
+    {
+        "item": "cqm:red_quartz_block",
+        "count": 1
+    }
+}

@@ -25,10 +25,6 @@ public class Main {
 	@EventHandler
 	public static void PreInit(FMLPreInitializationEvent event){RegistryHandler.otherRegistries();}
 	
-	{
-		
-	}
-	
 	@EventHandler
 	public static void init(FMLInitializationEvent event)
 	{

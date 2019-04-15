@@ -1,0 +1,6 @@
+{
+   "parent": "block/cube_all",
+   "textures": {
+       "all": "cqm:blocks/orange_quartz_ore"
+   }
+}

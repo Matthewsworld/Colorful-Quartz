@@ -53,3 +53,17 @@ tile.yellow_quartz_block.name=Yellow Block of Quartz
 
 //Ores
 tile.black_quartz_ore.name=Black Nether Quartz Ore
+tile.blue_quartz_ore.name=Blue Nether Quartz Ore
+tile.brown_quartz_ore.name=Brown Nether Quartz Ore
+tile.cyan_quartz_ore.name=Cyan Nether Quartz Ore
+tile.dark_grey_quartz_ore.name=Gray Nether Quartz Ore
+tile.green_quartz_ore.name=Green Nether Quartz Ore
+tile.light_blue_quartz_ore.name=Light Blue Nether Quartz Ore
+tile.light_grey_quartz_ore.name=Light Gray Nether Quartz Ore
+tile.lime_quartz_ore.name=Lime Nether Quartz Ore
+tile.magenta_quartz_ore.name=Magenta Nether Quartz Ore
+tile.orange_quartz_ore.name=Orange Nether Quartz Ore
+tile.pink_quartz_ore.name=Pink Nether Quartz Ore
+tile.purple_quartz_ore.name=Purple Nether Quartz Ore
+tile.red_quartz_ore.name=Red Nether Quartz Ore
+tile.yellow_quartz_ore.name=Yellow Nether Quartz Ore

@@ -60,6 +60,9 @@ public class OreDictionaryHandler
 		OreDictionary.registerOre("paintRed", new ItemStack(ModItems.RED_PAINT, 1, OreDictionary.WILDCARD_VALUE));
 		OreDictionary.registerOre("paintWhite", new ItemStack(ModItems.WHITE_PAINT, 1, OreDictionary.WILDCARD_VALUE));
 		OreDictionary.registerOre("paintYellow", new ItemStack(ModItems.YELLOW_PAINT, 1, OreDictionary.WILDCARD_VALUE));
+		//Ores
+		OreDictionary.registerOre("oreQuartz", ModBlocks.BLACK_QUARTZ_ORE);
+		
 	}
 	
 }

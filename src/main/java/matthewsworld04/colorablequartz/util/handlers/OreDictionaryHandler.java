@@ -62,6 +62,20 @@ public class OreDictionaryHandler
 		OreDictionary.registerOre("paintYellow", new ItemStack(ModItems.YELLOW_PAINT, 1, OreDictionary.WILDCARD_VALUE));
 		//Ores
 		OreDictionary.registerOre("oreQuartz", ModBlocks.BLACK_QUARTZ_ORE);
+		OreDictionary.registerOre("oreQuartz", ModBlocks.BLUE_QUARTZ_ORE);
+		OreDictionary.registerOre("oreQuartz", ModBlocks.BROWN_QUARTZ_ORE);
+		OreDictionary.registerOre("oreQuartz", ModBlocks.CYAN_QUARTZ_ORE);
+		OreDictionary.registerOre("oreQuartz", ModBlocks.GRAY_QUARTZ_ORE);
+		OreDictionary.registerOre("oreQuartz", ModBlocks.GREEN_QUARTZ_ORE);
+		OreDictionary.registerOre("oreQuartz", ModBlocks.LIGHT_BLUE_QUARTZ_ORE);
+		OreDictionary.registerOre("oreQuartz", ModBlocks.LIGHT_GRAY_QUARTZ_ORE);
+		OreDictionary.registerOre("oreQuartz", ModBlocks.LIME_QUARTZ_ORE);
+		OreDictionary.registerOre("oreQuartz", ModBlocks.MAGENTA_QUARTZ_ORE);
+		OreDictionary.registerOre("oreQuartz", ModBlocks.ORANGE_QUARTZ_ORE);
+		OreDictionary.registerOre("oreQuartz", ModBlocks.PINK_QUARTZ_ORE);
+		OreDictionary.registerOre("oreQuartz", ModBlocks.PURPLE_QUARTZ_ORE);
+		OreDictionary.registerOre("oreQuartz", ModBlocks.RED_QUARTZ_ORE);
+		OreDictionary.registerOre("oreQuartz", ModBlocks.YELLOW_QUARTZ_ORE);
 		
 	}
 	

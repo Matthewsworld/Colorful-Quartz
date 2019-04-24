@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "cqm:blocks/dark_grey_pillar_side",
+    "down": "cqm:blocks/dark_grey_pillar_top",
+    "up": "cqm:blocks/dark_grey_pillar_top",
+    "east": "cqm:blocks/dark_grey_pillar_side",
+    "west": "cqm:blocks/dark_grey_pillar_side",
+    "north": "cqm:blocks/dark_grey_pillar_side",
+    "south": "cqm:blocks/dark_grey_pillar_side"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "forge_marker": 1,
   "defaults": {
-    "model": "cqm:black_quartz_pillar"
+    "model": "cqm:blue_quartz_pillar"
   },
   "variants": {
     "normal": [{}],

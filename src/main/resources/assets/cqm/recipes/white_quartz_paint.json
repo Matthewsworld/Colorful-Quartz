@@ -11,15 +11,14 @@
 
     {
       "type": "forge:ore_dict",
-      "ore": "blockQuartz"
+      "ore": "gemQuartz"
     }
     
     ],
 
     "result": 
     {
-        "item": "minecraft:quartz_block",
-        "data": 0,
+        "item": "minecraft:quartz",
         "count": 1
     }
 }

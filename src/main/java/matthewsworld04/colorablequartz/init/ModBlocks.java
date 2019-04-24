@@ -15,6 +15,7 @@ import matthewsworld04.colorablequartz.blocks.LightGrayOre;
 import matthewsworld04.colorablequartz.blocks.LimeOre;
 import matthewsworld04.colorablequartz.blocks.MagentaOre;
 import matthewsworld04.colorablequartz.blocks.OrangeOre;
+import matthewsworld04.colorablequartz.blocks.PillarBlock;
 import matthewsworld04.colorablequartz.blocks.PinkOre;
 import matthewsworld04.colorablequartz.blocks.PurpleOre;
 import matthewsworld04.colorablequartz.blocks.RedOre;
@@ -44,8 +45,22 @@ public class ModBlocks
 	public static final Block RED_QUARTZ_BLOCK = new ColoredQuartzBlock("red_quartz_block", Material.IRON);
 	public static final Block YELLOW_QUARTZ_BLOCK = new ColoredQuartzBlock("yellow_quartz_block", Material.IRON);
 	
-	//Pillars (for the future)
-	//public static final Block BLACK_QUARTZ_PILLAR = new ColoredQuartzBlock("black_quartz_pillar", Material.IRON);
+	//Pillars
+	public static final Block BLACK_QUARTZ_PILLAR = new PillarBlock("black_quartz_pillar", Material.IRON);
+	public static final Block BLUE_QUARTZ_PILLAR = new PillarBlock("blue_quartz_pillar", Material.IRON);
+	public static final Block BROWN_QUARTZ_PILLAR = new PillarBlock("brown_quartz_pillar", Material.IRON);
+	public static final Block CYAN_QUARTZ_PILLAR = new PillarBlock("cyan_quartz_pillar", Material.IRON);
+	public static final Block GRAY_QUARTZ_PILLAR = new PillarBlock("dark_grey_quartz_pillar", Material.IRON);
+	public static final Block GREEN_QUARTZ_PILLAR = new PillarBlock("green_quartz_pillar", Material.IRON);
+	public static final Block LIGHT_BLUE_QUARTZ_PILLAR = new PillarBlock("light_blue_quartz_pillar", Material.IRON);
+	public static final Block LIGHT_GRAY_QUARTZ_PILLAR = new PillarBlock("light_grey_quartz_pillar", Material.IRON);
+	public static final Block LIME_QUARTZ_PILLAR = new PillarBlock("lime_quartz_pillar", Material.IRON);
+	public static final Block MAGENTA_QUARTZ_PILLAR = new PillarBlock("magenta_quartz_pillar", Material.IRON);
+	public static final Block ORANGE_QUARTZ_PILLAR = new PillarBlock("orange_quartz_pillar", Material.IRON);
+	public static final Block PINK_QUARTZ_PILLAR = new PillarBlock("pink_quartz_pillar", Material.IRON);
+	public static final Block PURPLE_QUARTZ_PILLAR = new PillarBlock("purple_quartz_pillar", Material.IRON);
+	public static final Block RED_QUARTZ_PILLAR = new PillarBlock("red_quartz_pillar", Material.IRON);
+	public static final Block YELLOW_QUARTZ_PILLAR = new PillarBlock("yellow_quartz_pillar", Material.IRON);
 	
 	//Ores
 	public static final Block BLACK_QUARTZ_ORE = new BlackOre("black_quartz_ore", Material.ROCK);

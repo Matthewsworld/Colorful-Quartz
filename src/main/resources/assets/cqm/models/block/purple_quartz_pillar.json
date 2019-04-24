@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "cqm:blocks/purple_pillar_side",
+    "down": "cqm:blocks/purple_pillar_top",
+    "up": "cqm:blocks/purple_pillar_top",
+    "east": "cqm:blocks/purple_pillar_side",
+    "west": "cqm:blocks/purple_pillar_side",
+    "north": "cqm:blocks/purple_pillar_side",
+    "south": "cqm:blocks/purple_pillar_side"
+  }
+}

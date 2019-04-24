@@ -51,6 +51,23 @@ tile.pink_quartz_block.name=Pink Block of Quartz
 tile.purple_quartz_block.name=Purple Block of Quartz
 tile.yellow_quartz_block.name=Yellow Block of Quartz
 
+//Pillars
+tile.black_quartz_pillar.name=Black Pillar Quartz Block
+tile.blue_quartz_pillar.name=Blue Pillar Quartz Block
+tile.brown_quartz_pillar.name=Brown Pillar Quartz Block
+tile.cyan_quartz_pillar.name=Cyan Pillar Quartz Block
+tile.dark_grey_quartz_pillar.name=Grey Pillar Quartz Block
+tile.green_quartz_pillar.name=Green Pillar Quartz Block
+tile.light_blue_quartz_pillar.name=Light Blue Pillar Quartz Block
+tile.light_grey_quartz_pillar.name=Light Grey Pillar Quartz Block
+tile.lime_quartz_pillar.name=Lime Pillar Quartz Block
+tile.magenta_quartz_pillar.name=Magenta Pillar Quartz Block
+tile.orange_quartz_pillar.name=Orange Pillar Quartz Block
+tile.pink_quartz_pillar.name=Pink Pillar Quartz Block
+tile.purple_quartz_pillar.name=Purple Pillar Quartz Block
+tile.red_quartz_pillar.name=Red Pillar Quartz Block
+tile.yellow_quartz_pillar.name=Yellow Pillar Quartz Block
+
 //Ores
 tile.black_quartz_ore.name=Black Nether Quartz Ore
 tile.blue_quartz_ore.name=Blue Nether Quartz Ore

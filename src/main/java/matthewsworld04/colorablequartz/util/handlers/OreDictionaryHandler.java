@@ -2,6 +2,7 @@ package matthewsworld04.colorablequartz.util.handlers;
 
 import matthewsworld04.colorablequartz.init.ModBlocks;
 import matthewsworld04.colorablequartz.init.ModItems;
+import net.minecraft.init.Blocks;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.oredict.OreDictionary;
 
@@ -27,6 +28,24 @@ public class OreDictionaryHandler
 		OreDictionary.registerOre("blockQuartz", ModBlocks.PURPLE_QUARTZ_BLOCK);	
 		OreDictionary.registerOre("blockQuartz", ModBlocks.RED_QUARTZ_BLOCK);	
 		OreDictionary.registerOre("blockQuartz", ModBlocks.YELLOW_QUARTZ_BLOCK);	
+		//Pillars
+		OreDictionary.registerOre("blockQuartzPillar", new ItemStack(Blocks.QUARTZ_BLOCK, 1, 2));
+		OreDictionary.registerOre("blockQuartzPillar", ModBlocks.BLACK_QUARTZ_PILLAR);
+		OreDictionary.registerOre("blockQuartzPillar", ModBlocks.BLUE_QUARTZ_PILLAR);
+		OreDictionary.registerOre("blockQuartzPillar", ModBlocks.BROWN_QUARTZ_PILLAR);
+		OreDictionary.registerOre("blockQuartzPillar", ModBlocks.CYAN_QUARTZ_PILLAR);
+		OreDictionary.registerOre("blockQuartzPillar", ModBlocks.GRAY_QUARTZ_PILLAR);
+		OreDictionary.registerOre("blockQuartzPillar", ModBlocks.GREEN_QUARTZ_PILLAR);
+		OreDictionary.registerOre("blockQuartzPillar", ModBlocks.LIGHT_BLUE_QUARTZ_PILLAR);
+		OreDictionary.registerOre("blockQuartzPillar", ModBlocks.LIGHT_GRAY_QUARTZ_PILLAR);
+		OreDictionary.registerOre("blockQuartzPillar", ModBlocks.LIME_QUARTZ_PILLAR);
+		OreDictionary.registerOre("blockQuartzPillar", ModBlocks.MAGENTA_QUARTZ_PILLAR);
+		OreDictionary.registerOre("blockQuartzPillar", ModBlocks.ORANGE_QUARTZ_PILLAR);
+		OreDictionary.registerOre("blockQuartzPillar", ModBlocks.PINK_QUARTZ_PILLAR);
+		OreDictionary.registerOre("blockQuartzPillar", ModBlocks.PURPLE_QUARTZ_PILLAR);
+		OreDictionary.registerOre("blockQuartzPillar", ModBlocks.RED_QUARTZ_PILLAR);
+		OreDictionary.registerOre("blockQuartzPillar", ModBlocks.YELLOW_QUARTZ_PILLAR);
+		
 		//Gems
 		OreDictionary.registerOre("gemQuartz", ModItems.BLACK_QUARTZ);
 		OreDictionary.registerOre("gemQuartz", ModItems.BLUE_QUARTZ);

@@ -11,13 +11,13 @@
     {
         "B":
         {
-            "item": "cqm:black_quartz_block"
+            "item": "cqm:dark_grey_quartz_block"
         }
     },
     
     "result":
     {
-        "item": "cqm:black_quartz_pillar",
+        "item": "cqm:dark_grey_quartz_pillar",
         "count": 2
     }
 }

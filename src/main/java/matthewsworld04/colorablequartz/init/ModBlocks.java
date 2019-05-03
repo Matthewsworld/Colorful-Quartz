@@ -62,7 +62,9 @@ public class ModBlocks
 	public static final Block RED_QUARTZ_PILLAR = new PillarBlock("red_quartz_pillar", Material.IRON);
 	public static final Block YELLOW_QUARTZ_PILLAR = new PillarBlock("yellow_quartz_pillar", Material.IRON);
 	
-	//Ores
+	//Chiseled [TODO]
+	
+	//Ores [Need smelting recipes]
 	public static final Block BLACK_QUARTZ_ORE = new BlackOre("black_quartz_ore", Material.ROCK);
 	public static final Block BLUE_QUARTZ_ORE = new BlueOre("blue_quartz_ore", Material.ROCK);
 	public static final Block BROWN_QUARTZ_ORE = new BrownOre("brown_quartz_ore", Material.ROCK);

@@ -68,6 +68,23 @@ tile.purple_quartz_pillar.name=Purple Pillar Quartz Block
 tile.red_quartz_pillar.name=Red Pillar Quartz Block
 tile.yellow_quartz_pillar.name=Yellow Pillar Quartz Block
 
+//Chiseled
+tile.black_quartz_chiseled.name=Black Chiselled Quartz Block
+tile.blue_quartz_chiseled.name=Blue Chiselled Quartz Block
+tile.brown_quartz_chiseled.name=Brown Chiselled Quartz Block
+tile.cyan_quartz_chiseled.name=Cyan Chiselled Quartz Block
+tile.dark_grey_quartz_chiseled.name=Grey Chiselled Quartz Block
+tile.green_quartz_chiseled.name=Green Chiselled Quartz Block
+tile.light_blue_quartz_chiseled.name=Light Blue Chiselled Quartz Block
+tile.light_grey_quartz_chiseled.name=Light Grey Chiselled Quartz Block
+tile.lime_quartz_chiseled.name=Lime Chiselled Quartz Block
+tile.magenta_quartz_chiseled.name=Magenta Chiselled Quartz Block
+tile.orange_quartz_chiseled.name=Orange Chiselled Quartz Block
+tile.pink_quartz_chiseled.name=Pink Chiselled Quartz Block
+tile.purple_quartz_chiseled.name=Purple Chiselled Quartz Block
+tile.red_quartz_chiseled.name=Red Chiselled Quartz Block
+tile.yellow_quartz_chiseled.name=Yellow Chiselled Quartz Block
+
 //Ores
 tile.black_quartz_ore.name=Black Nether Quartz Ore
 tile.blue_quartz_ore.name=Blue Nether Quartz Ore

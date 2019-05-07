@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "cqm:blocks/magenta_chiseled_side",
+    "down": "cqm:blocks/magenta_chiseled_top",
+    "up": "cqm:blocks/magenta_chiseled_top",
+    "east": "cqm:blocks/magenta_chiseled_side",
+    "west": "cqm:blocks/magenta_chiseled_side",
+    "north": "cqm:blocks/magenta_chiseled_side",
+    "south": "cqm:blocks/magenta_chiseled_side"
+  }
+}

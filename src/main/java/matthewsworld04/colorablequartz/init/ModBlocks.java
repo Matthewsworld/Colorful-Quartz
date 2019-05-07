@@ -62,7 +62,22 @@ public class ModBlocks
 	public static final Block RED_QUARTZ_PILLAR = new PillarBlock("red_quartz_pillar", Material.IRON);
 	public static final Block YELLOW_QUARTZ_PILLAR = new PillarBlock("yellow_quartz_pillar", Material.IRON);
 	
-	//Chiseled [TODO]
+	//Chiseled
+	public static final Block BLACK_QUARTZ_CHISELED = new ColoredQuartzBlock("black_quartz_chiseled", Material.IRON);
+	public static final Block BLUE_QUARTZ_CHISELED = new ColoredQuartzBlock("blue_quartz_chiseled", Material.IRON);
+	public static final Block BROWN_QUARTZ_CHISELED = new ColoredQuartzBlock("brown_quartz_chiseled", Material.IRON);
+	public static final Block CYAN_QUARTZ_CHISELED = new ColoredQuartzBlock("cyan_quartz_chiseled", Material.IRON);
+	public static final Block GRAY_QUARTZ_CHISELED = new ColoredQuartzBlock("dark_grey_quartz_chiseled", Material.IRON);
+	public static final Block GREEN_QUARTZ_CHISELED = new ColoredQuartzBlock("green_quartz_chiseled", Material.IRON);
+	public static final Block LIGHT_BLUE_QUARTZ_CHISELED = new ColoredQuartzBlock("light_blue_quartz_chiseled", Material.IRON);
+	public static final Block LIGHT_GRAY_QUARTZ_CHISELED = new ColoredQuartzBlock("light_grey_quartz_chiseled", Material.IRON);
+	public static final Block LIME_QUARTZ_CHISELED = new ColoredQuartzBlock("lime_quartz_chiseled", Material.IRON);
+	public static final Block MAGENTA_QUARTZ_CHISELED = new ColoredQuartzBlock("magenta_quartz_chiseled", Material.IRON);
+	public static final Block ORANGE_QUARTZ_CHISELED = new ColoredQuartzBlock("orange_quartz_chiseled", Material.IRON);
+	public static final Block PINK_QUARTZ_CHISELED = new ColoredQuartzBlock("pink_quartz_chiseled", Material.IRON);
+	public static final Block PURPLE_QUARTZ_CHISELED = new ColoredQuartzBlock("purple_quartz_chiseled", Material.IRON);
+	public static final Block RED_QUARTZ_CHISELED = new ColoredQuartzBlock("red_quartz_chiseled", Material.IRON);
+	public static final Block YELLOW_QUARTZ_CHISELED = new ColoredQuartzBlock("yellow_quartz_chiseled", Material.IRON);
 	
 	//Ores [Need smelting recipes]
 	public static final Block BLACK_QUARTZ_ORE = new BlackOre("black_quartz_ore", Material.ROCK);

@@ -1,0 +1,25 @@
+{ 
+    "type": "minecraft:crafting_shapeless",
+
+    "ingredients": 
+    [
+
+    {
+      "item": "cqm:white_paint",
+      "data": 32767
+    },
+
+    {
+      "type": "forge:ore_dict",
+      "ore": "blockQuartzChiseled"
+    }
+    
+    ],
+
+    "result": 
+    {
+        "item": "minecraft:quartz_block",
+        "data": 1,
+        "count": 1
+    }
+}

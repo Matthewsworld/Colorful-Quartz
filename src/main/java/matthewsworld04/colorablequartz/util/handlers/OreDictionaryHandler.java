@@ -45,7 +45,23 @@ public class OreDictionaryHandler
 		OreDictionary.registerOre("blockQuartzPillar", ModBlocks.PURPLE_QUARTZ_PILLAR);
 		OreDictionary.registerOre("blockQuartzPillar", ModBlocks.RED_QUARTZ_PILLAR);
 		OreDictionary.registerOre("blockQuartzPillar", ModBlocks.YELLOW_QUARTZ_PILLAR);
-		
+		//Chiseled
+		OreDictionary.registerOre("blockQuartzChiseled", new ItemStack(Blocks.QUARTZ_BLOCK, 1, 1));
+		OreDictionary.registerOre("blockQuartzChiseled", ModBlocks.BLACK_QUARTZ_CHISELED);
+		OreDictionary.registerOre("blockQuartzChiseled", ModBlocks.BLUE_QUARTZ_CHISELED);
+		OreDictionary.registerOre("blockQuartzChiseled", ModBlocks.BROWN_QUARTZ_CHISELED);
+		OreDictionary.registerOre("blockQuartzChiseled", ModBlocks.CYAN_QUARTZ_CHISELED);
+		OreDictionary.registerOre("blockQuartzChiseled", ModBlocks.GRAY_QUARTZ_CHISELED);
+		OreDictionary.registerOre("blockQuartzChiseled", ModBlocks.GREEN_QUARTZ_CHISELED);
+		OreDictionary.registerOre("blockQuartzChiseled", ModBlocks.LIGHT_BLUE_QUARTZ_CHISELED);
+		OreDictionary.registerOre("blockQuartzChiseled", ModBlocks.LIGHT_GRAY_QUARTZ_CHISELED);
+		OreDictionary.registerOre("blockQuartzChiseled", ModBlocks.LIME_QUARTZ_CHISELED);
+		OreDictionary.registerOre("blockQuartzChiseled", ModBlocks.MAGENTA_QUARTZ_CHISELED);
+		OreDictionary.registerOre("blockQuartzChiseled", ModBlocks.ORANGE_QUARTZ_CHISELED);
+		OreDictionary.registerOre("blockQuartzChiseled", ModBlocks.PINK_QUARTZ_CHISELED);
+		OreDictionary.registerOre("blockQuartzChiseled", ModBlocks.PURPLE_QUARTZ_CHISELED);
+		OreDictionary.registerOre("blockQuartzChiseled", ModBlocks.RED_QUARTZ_CHISELED);
+		OreDictionary.registerOre("blockQuartzChiseled", ModBlocks.YELLOW_QUARTZ_CHISELED);
 		//Gems
 		OreDictionary.registerOre("gemQuartz", ModItems.BLACK_QUARTZ);
 		OreDictionary.registerOre("gemQuartz", ModItems.BLUE_QUARTZ);

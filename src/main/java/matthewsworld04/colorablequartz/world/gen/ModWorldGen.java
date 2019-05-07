@@ -3,6 +3,7 @@ package matthewsworld04.colorablequartz.world.gen;
 import java.util.Random;
 
 import matthewsworld04.colorablequartz.init.ModBlocks;
+import matthewsworld04.colorablequartz.util.Configs;
 import net.minecraft.block.state.pattern.BlockMatcher;
 import net.minecraft.init.Blocks;
 import net.minecraft.util.math.BlockPos;
@@ -11,10 +12,9 @@ import net.minecraft.world.chunk.IChunkProvider;
 import net.minecraft.world.gen.IChunkGenerator;
 import net.minecraft.world.gen.feature.WorldGenMinable;
 import net.minecraft.world.gen.feature.WorldGenerator;
-import net.minecraftforge.common.config.Config;
 import net.minecraftforge.fml.common.IWorldGenerator;
 
-public class ModWorldGen implements IWorldGenerator 
+public class ModWorldGen implements IWorldGenerator
 {
 
 
@@ -36,6 +36,7 @@ public class ModWorldGen implements IWorldGenerator
 	
 	public ModWorldGen()
 	{
+		
 		black_quartz_ore = new WorldGenMinable(ModBlocks.BLACK_QUARTZ_ORE.getDefaultState(), 4, BlockMatcher.forBlock(Blocks.NETHERRACK));
 		blue_quartz_ore = new WorldGenMinable(ModBlocks.BLUE_QUARTZ_ORE.getDefaultState(), 4, BlockMatcher.forBlock(Blocks.NETHERRACK));
 		brown_quartz_ore = new WorldGenMinable(ModBlocks.BROWN_QUARTZ_ORE.getDefaultState(), 4, BlockMatcher.forBlock(Blocks.NETHERRACK));
@@ -51,13 +52,12 @@ public class ModWorldGen implements IWorldGenerator
 		purple_quartz_ore = new WorldGenMinable(ModBlocks.PURPLE_QUARTZ_ORE.getDefaultState(), 4, BlockMatcher.forBlock(Blocks.NETHERRACK));
 		red_quartz_ore = new WorldGenMinable(ModBlocks.RED_QUARTZ_ORE.getDefaultState(), 4, BlockMatcher.forBlock(Blocks.NETHERRACK));
 		yellow_quartz_ore = new WorldGenMinable(ModBlocks.YELLOW_QUARTZ_ORE.getDefaultState(), 4, BlockMatcher.forBlock(Blocks.NETHERRACK));
-		
 	}
 	
 	@Override
 	public void generate(Random random, int chunkX, int chunkZ, World world, IChunkGenerator chunkGenerator, IChunkProvider chunkProvider) {
 		{
-			
+			if(!Configs.ore_gen) return;
 			switch(world.provider.getDimension())
 			{
 			case -1:
@@ -84,6 +84,7 @@ public class ModWorldGen implements IWorldGenerator
 	
 	private void runGenerator(WorldGenerator gen, World world, Random rand, int chunkX, int chunkZ, int chance, int minHeight, int maxHeight)
 	{
+		if(!Configs.ore_gen) return;
 		if(minHeight > maxHeight || minHeight < 0 || maxHeight > 256) throw new IllegalArgumentException("Whoops, that wasn't meant to happen. (Ore generated out of bounds)");
 		
 		int heightDiff = maxHeight - minHeight + 1;

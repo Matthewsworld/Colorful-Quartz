@@ -3,6 +3,7 @@ package matthewsworld04.colorablequartz.util;
 import net.minecraftforge.common.config.Config;
 import net.minecraftforge.common.config.Config.Comment;
 import net.minecraftforge.common.config.Config.Name;
+import net.minecraftforge.common.config.Config.RequiresMcRestart;
 import net.minecraftforge.common.config.Config.RequiresWorldRestart;
 import net.minecraftforge.common.config.Config.Type;
 
@@ -11,13 +12,12 @@ public class Configs
 {
 	
 	@Name("Ore Generation")
-	@Comment("Nothing as of right now. [VALUES = true / false] Default = true")
+	@Comment("Toggles ore generation. [VALUES = true / false] Default = false")
 	@RequiresWorldRestart
 	public static boolean ore_gen = true;
 	
 	@Name("Paints as Dyes")
-	@Comment("Nothing as of right now. [VALUES = true / fasle] Default = true")
-	public static boolean paints_as_dyes = true;
-
-	
+	@Comment("Toggles whether paints count as dyes in OreDictionary (May break some machines) [VALUES = true / fasle] Default = true")
+	@RequiresMcRestart
+	public static boolean paints_as_dyes = true;	
 }

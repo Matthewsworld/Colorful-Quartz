@@ -2,6 +2,7 @@ package matthewsworld04.colorablequartz.util.handlers;
 
 import matthewsworld04.colorablequartz.init.ModBlocks;
 import matthewsworld04.colorablequartz.init.ModItems;
+import matthewsworld04.colorablequartz.util.Configs;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.oredict.OreDictionary;
@@ -111,7 +112,26 @@ public class OreDictionaryHandler
 		OreDictionary.registerOre("oreQuartz", ModBlocks.PURPLE_QUARTZ_ORE);
 		OreDictionary.registerOre("oreQuartz", ModBlocks.RED_QUARTZ_ORE);
 		OreDictionary.registerOre("oreQuartz", ModBlocks.YELLOW_QUARTZ_ORE);
-		
+		//Paints as Dyes
+		if(Configs.paints_as_dyes) {
+		OreDictionary.registerOre("dyeBlack", ModItems.BLACK_PAINT);
+		OreDictionary.registerOre("dyeBlue", ModItems.BLUE_PAINT);
+		OreDictionary.registerOre("dyeBrown", ModItems.BROWN_PAINT);
+		OreDictionary.registerOre("dyeCyan", ModItems.CYAN_PAINT);
+		OreDictionary.registerOre("dyeGray", ModItems.GRAY_PAINT);
+		OreDictionary.registerOre("dyeGreen", ModItems.GREEN_PAINT);
+		OreDictionary.registerOre("dyeLightBlue", ModItems.LIGHT_BLUE_PAINT);
+		OreDictionary.registerOre("dyeLightGray", ModItems.LIGHT_GRAY_PAINT);
+		OreDictionary.registerOre("dyeLime", ModItems.LIME_PAINT);
+		OreDictionary.registerOre("dyeMagenta", ModItems.MAGENTA_PAINT);
+		OreDictionary.registerOre("dyeOrange", ModItems.ORANGE_PAINT);
+		OreDictionary.registerOre("dyePink", ModItems.PINK_PAINT);
+		OreDictionary.registerOre("dyePurple", ModItems.PURPLE_PAINT);
+		OreDictionary.registerOre("dyeRed", ModItems.RED_PAINT);
+		OreDictionary.registerOre("dyeWhite", ModItems.WHITE_PAINT);
+		OreDictionary.registerOre("dyeYellow", ModItems.YELLOW_PAINT);
+		}
 	}
-	
+		
 }
+	

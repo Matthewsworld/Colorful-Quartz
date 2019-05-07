@@ -12,12 +12,12 @@ public class Configs
 {
 	
 	@Name("Ore Generation")
-	@Comment("Toggles ore generation. [VALUES = true / false] Default = false")
+	@Comment("Toggles ore generation. [VALUES = true / false] [Default = false]")
 	@RequiresWorldRestart
 	public static boolean ore_gen = true;
 	
 	@Name("Paints as Dyes")
-	@Comment("Toggles whether paints count as dyes in OreDictionary (May break some machines) [VALUES = true / false] Default = true")
+	@Comment("Toggles whether paints count as dyes in OreDictionary. [VALUES = true / false] [Default = true]")
 	@RequiresMcRestart
 	public static boolean paints_as_dyes = true;	
 }

@@ -17,7 +17,7 @@ public class Configs
 	public static boolean ore_gen = true;
 	
 	@Name("Paints as Dyes")
-	@Comment("Toggles whether paints count as dyes in OreDictionary (May break some machines) [VALUES = true / fasle] Default = true")
+	@Comment("Toggles whether paints count as dyes in OreDictionary (May break some machines) [VALUES = true / false] Default = true")
 	@RequiresMcRestart
 	public static boolean paints_as_dyes = true;	
 }

@@ -13,7 +13,7 @@ apply plugin: 'net.minecraftforge.gradle.forge'
 
 version = "2.0b3"
 group = "matthewsworld.colorablequartz" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = "colorablequartz"
+archivesBaseName = "colorfulquartz"
 
 sourceCompatibility = targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
 compileJava {

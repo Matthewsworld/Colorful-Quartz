@@ -11,6 +11,7 @@ import net.minecraft.world.chunk.IChunkProvider;
 import net.minecraft.world.gen.IChunkGenerator;
 import net.minecraft.world.gen.feature.WorldGenMinable;
 import net.minecraft.world.gen.feature.WorldGenerator;
+import net.minecraftforge.common.config.Config;
 import net.minecraftforge.fml.common.IWorldGenerator;
 
 public class ModWorldGen implements IWorldGenerator 

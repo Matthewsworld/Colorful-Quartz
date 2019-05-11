@@ -14,7 +14,7 @@ public class PurpleOre extends BlockBase
 	public PurpleOre(String name, Material material) {
 		super(name, material);
 		setSoundType(SoundType.STONE);
-		setHardness(0.8F);
+		setHardness(3.0F);
 		setResistance(15.0F);
 		setHarvestLevel("pickaxe", 0);
 	}

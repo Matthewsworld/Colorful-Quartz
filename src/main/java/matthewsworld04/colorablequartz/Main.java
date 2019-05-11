@@ -1,5 +1,6 @@
 package matthewsworld04.colorablequartz;
 
+import matthewsworld04.colorablequartz.init.ModRecipes;
 import matthewsworld04.colorablequartz.proxy.CommonProxy;
 import matthewsworld04.colorablequartz.util.Reference;
 import matthewsworld04.colorablequartz.util.handlers.OreDictionaryHandler;
@@ -29,6 +30,7 @@ public class Main {
 	public static void init(FMLInitializationEvent event)
 	{
 		OreDictionaryHandler.registerOreDictionary();	
+		ModRecipes.init();
 	}
 	
 	@EventHandler

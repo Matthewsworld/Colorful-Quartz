@@ -4,7 +4,6 @@ import net.minecraftforge.common.config.Config;
 import net.minecraftforge.common.config.Config.Comment;
 import net.minecraftforge.common.config.Config.Name;
 import net.minecraftforge.common.config.Config.RequiresMcRestart;
-import net.minecraftforge.common.config.Config.RequiresWorldRestart;
 import net.minecraftforge.common.config.Config.Type;
 
 @Config(modid = Reference.MOD_ID, name = "colorfulquartz", type = Type.INSTANCE)
@@ -13,7 +12,7 @@ public class Configs
 	
 	@Name("Ore Generation")
 	@Comment("Toggles ore generation. [VALUES = true / false] [Default = false]")
-	@RequiresWorldRestart
+	@RequiresMcRestart
 	public static boolean ore_gen = true;
 	
 	@Name("Paints as Dyes")

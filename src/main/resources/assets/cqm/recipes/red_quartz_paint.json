@@ -12,6 +12,21 @@
     {
       "type": "forge:ore_dict",
       "ore": "gemQuartz"
+    },
+    
+       {
+      "type": "forge:ore_dict",
+      "ore": "gemQuartz"
+    },
+    
+       {
+      "type": "forge:ore_dict",
+      "ore": "gemQuartz"
+    },
+    
+       {
+      "type": "forge:ore_dict",
+      "ore": "gemQuartz"
     }
     
     ],
@@ -19,6 +34,6 @@
     "result": 
     {
         "item": "cqm:red_quartz",
-        "count": 1
+        "count": 4
     }
 }

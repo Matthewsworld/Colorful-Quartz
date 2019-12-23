@@ -29,6 +29,21 @@ public class OreDictionaryHandler
 		OreDictionary.registerOre("blockQuartz", ModBlocks.PURPLE_QUARTZ_BLOCK);	
 		OreDictionary.registerOre("blockQuartz", ModBlocks.RED_QUARTZ_BLOCK);	
 		OreDictionary.registerOre("blockQuartz", ModBlocks.YELLOW_QUARTZ_BLOCK);	
+		OreDictionary.registerOre("blockColorfulQuartz", ModBlocks.BLACK_QUARTZ_BLOCK);	
+		OreDictionary.registerOre("blockColorfulQuartz", ModBlocks.BLUE_QUARTZ_BLOCK);
+		OreDictionary.registerOre("blockColorfulQuartz", ModBlocks.BROWN_QUARTZ_BLOCK);	
+		OreDictionary.registerOre("blockColorfulQuartz", ModBlocks.CYAN_QUARTZ_BLOCK);
+		OreDictionary.registerOre("blockColorfulQuartz", ModBlocks.DARK_GRAY_QUARTZ_BLOCK);
+		OreDictionary.registerOre("blockColorfulQuartz", ModBlocks.GREEN_QUARTZ_BLOCK);
+		OreDictionary.registerOre("blockColorfulQuartz", ModBlocks.LIGHT_BLUE_QUARTZ_BLOCK);
+		OreDictionary.registerOre("blockColorfulQuartz", ModBlocks.LIGHT_GRAY_QUARTZ_BLOCK);	
+		OreDictionary.registerOre("blockColorfulQuartz", ModBlocks.LIME_QUARTZ_BLOCK);	
+		OreDictionary.registerOre("blockColorfulQuartz", ModBlocks.MAGENTA_QUARTZ_BLOCK);
+		OreDictionary.registerOre("blockColorfulQuartz", ModBlocks.ORANGE_QUARTZ_BLOCK);
+		OreDictionary.registerOre("blockColorfulQuartz", ModBlocks.PINK_QUARTZ_BLOCK);
+		OreDictionary.registerOre("blockColorfulQuartz", ModBlocks.PURPLE_QUARTZ_BLOCK);	
+		OreDictionary.registerOre("blockColorfulQuartz", ModBlocks.RED_QUARTZ_BLOCK);	
+		OreDictionary.registerOre("blockColorfulQuartz", ModBlocks.YELLOW_QUARTZ_BLOCK);
 		//Pillars
 		OreDictionary.registerOre("blockQuartzPillar", new ItemStack(Blocks.QUARTZ_BLOCK, 1, 2));
 		OreDictionary.registerOre("blockQuartzPillar", ModBlocks.BLACK_QUARTZ_PILLAR);
@@ -46,6 +61,21 @@ public class OreDictionaryHandler
 		OreDictionary.registerOre("blockQuartzPillar", ModBlocks.PURPLE_QUARTZ_PILLAR);
 		OreDictionary.registerOre("blockQuartzPillar", ModBlocks.RED_QUARTZ_PILLAR);
 		OreDictionary.registerOre("blockQuartzPillar", ModBlocks.YELLOW_QUARTZ_PILLAR);
+		OreDictionary.registerOre("blockColorfulQuartzPillar", ModBlocks.BLACK_QUARTZ_PILLAR);
+		OreDictionary.registerOre("blockColorfulQuartzPillar", ModBlocks.BLUE_QUARTZ_PILLAR);
+		OreDictionary.registerOre("blockColorfulQuartzPillar", ModBlocks.BROWN_QUARTZ_PILLAR);
+		OreDictionary.registerOre("blockColorfulQuartzPillar", ModBlocks.CYAN_QUARTZ_PILLAR);
+		OreDictionary.registerOre("blockColorfulQuartzPillar", ModBlocks.GRAY_QUARTZ_PILLAR);
+		OreDictionary.registerOre("blockColorfulQuartzPillar", ModBlocks.GREEN_QUARTZ_PILLAR);
+		OreDictionary.registerOre("blockColorfulQuartzPillar", ModBlocks.LIGHT_BLUE_QUARTZ_PILLAR);
+		OreDictionary.registerOre("blockColorfulQuartzPillar", ModBlocks.LIGHT_GRAY_QUARTZ_PILLAR);
+		OreDictionary.registerOre("blockColorfulQuartzPillar", ModBlocks.LIME_QUARTZ_PILLAR);
+		OreDictionary.registerOre("blockColorfulQuartzPillar", ModBlocks.MAGENTA_QUARTZ_PILLAR);
+		OreDictionary.registerOre("blockColorfulQuartzPillar", ModBlocks.ORANGE_QUARTZ_PILLAR);
+		OreDictionary.registerOre("blockColorfulQuartzPillar", ModBlocks.PINK_QUARTZ_PILLAR);
+		OreDictionary.registerOre("blockColorfulQuartzPillar", ModBlocks.PURPLE_QUARTZ_PILLAR);
+		OreDictionary.registerOre("blockColorfulQuartzPillar", ModBlocks.RED_QUARTZ_PILLAR);
+		OreDictionary.registerOre("blockColorfulQuartzPillar", ModBlocks.YELLOW_QUARTZ_PILLAR);
 		//Chiseled
 		OreDictionary.registerOre("blockQuartzChiseled", new ItemStack(Blocks.QUARTZ_BLOCK, 1, 1));
 		OreDictionary.registerOre("blockQuartzChiseled", ModBlocks.BLACK_QUARTZ_CHISELED);
@@ -112,25 +142,6 @@ public class OreDictionaryHandler
 		OreDictionary.registerOre("oreQuartz", ModBlocks.PURPLE_QUARTZ_ORE);
 		OreDictionary.registerOre("oreQuartz", ModBlocks.RED_QUARTZ_ORE);
 		OreDictionary.registerOre("oreQuartz", ModBlocks.YELLOW_QUARTZ_ORE);
-		//Paints as Dyes
-		if(Configs.paints_as_dyes) {
-		OreDictionary.registerOre("dyeBlack", ModItems.BLACK_PAINT);
-		OreDictionary.registerOre("dyeBlue", ModItems.BLUE_PAINT);
-		OreDictionary.registerOre("dyeBrown", ModItems.BROWN_PAINT);
-		OreDictionary.registerOre("dyeCyan", ModItems.CYAN_PAINT);
-		OreDictionary.registerOre("dyeGray", ModItems.GRAY_PAINT);
-		OreDictionary.registerOre("dyeGreen", ModItems.GREEN_PAINT);
-		OreDictionary.registerOre("dyeLightBlue", ModItems.LIGHT_BLUE_PAINT);
-		OreDictionary.registerOre("dyeLightGray", ModItems.LIGHT_GRAY_PAINT);
-		OreDictionary.registerOre("dyeLime", ModItems.LIME_PAINT);
-		OreDictionary.registerOre("dyeMagenta", ModItems.MAGENTA_PAINT);
-		OreDictionary.registerOre("dyeOrange", ModItems.ORANGE_PAINT);
-		OreDictionary.registerOre("dyePink", ModItems.PINK_PAINT);
-		OreDictionary.registerOre("dyePurple", ModItems.PURPLE_PAINT);
-		OreDictionary.registerOre("dyeRed", ModItems.RED_PAINT);
-		OreDictionary.registerOre("dyeWhite", ModItems.WHITE_PAINT);
-		OreDictionary.registerOre("dyeYellow", ModItems.YELLOW_PAINT);
-		}
 	}
 		
 }
